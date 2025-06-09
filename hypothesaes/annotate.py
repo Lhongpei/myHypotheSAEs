@@ -49,12 +49,14 @@ def annotate_single_text(
     Annotate a single text with given concept using LLM.
     Returns (annotation, api_time) where annotation is 1 (present), 0 (absent), or None (failed).
     """
+    model = 'Qwen/Qwen3-0.6B' 
     if max_words_per_example:
         text = truncate_text(text, max_words_per_example)
         
     prompt_template = load_prompt("annotate")
     prompt = prompt_template.format(hypothesis=concept, text=text)
-    
+    sys_prompt = "You are a concise assistant. Only answer 'yes' or 'no'. Do not provide explanations or reasoning.\n" 
+    prompt += ' Only answer "yes" or "no". Do not provide explanations or reasoning. /no_think'
     total_api_time = 0.0
     for attempt in range(max_retries):
         try:
@@ -63,14 +65,15 @@ def annotate_single_text(
                 prompt=prompt,
                 model=model,
                 temperature=temperature,
-                max_tokens=1,
-                timeout=timeout
+                max_tokens=50,
+                timeout=timeout,
+                system=sys_prompt
             ).strip().lower()
             total_api_time += time.time() - start_time
             
-            if response_text == "yes":
+            if 'yes' in response_text:
                 return 1, total_api_time
-            elif response_text == "no":
+            elif 'no' in response_text:
                 return 0, total_api_time
             
         except Exception as e:

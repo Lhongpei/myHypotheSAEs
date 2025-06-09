@@ -37,14 +37,15 @@ def get_client():
     if api_key is None or '...' in api_key:
         raise ValueError("Please set the OPENAI_KEY_SAE environment variable before using functions which require the OpenAI API.")
     
-    return openai.OpenAI(api_key=api_key)
+    return openai.OpenAI(api_key=api_key, base_url="http://0.0.0.0:1212/v1")
 
 def get_completion(
     prompt: str,
-    model: str = "gpt-4o",
+    model: str = "Qwen3-0.6B",
     timeout: float = 15.0,
     max_retries: int = 3,
     backoff_factor: float = 2.0,
+    system = None,
     **kwargs
 ) -> str:
     """
@@ -68,9 +69,17 @@ def get_completion(
     
     for attempt in range(max_retries):
         try:
+            if system is not None:
+                # If a system message is provided, use it in the messages list
+                response = client.chat.completions.create(
+                    model=model_id,
+                    messages=[{"role": "system", "content": system}, {"role": "user", "content": prompt}],
+                    timeout=timeout,
+                    **kwargs
+                )
             response = client.chat.completions.create(
-                model=model_id,
-                messages=[{"role": "user", "content": prompt}],
+                model="Qwen/Qwen3-0.6B",
+                messages=[{"role": "user", "content": prompt}, ],
                 timeout=timeout,
                 **kwargs
             )

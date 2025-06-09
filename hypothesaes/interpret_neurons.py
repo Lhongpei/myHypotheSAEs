@@ -183,6 +183,7 @@ class NeuronInterpreter:
         n_workers_annotation: int = 30,
         cache_name: Optional[str] = None,
     ):
+        interpreter_model, annotator_model = 'Qwen/Qwen3-0.6B', 'Qwen/Qwen3-0.6B' 
         """Initialize a NeuronInterpreter."""
         self.interpreter_model = interpreter_model
         self.annotator_model = annotator_model

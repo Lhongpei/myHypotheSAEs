@@ -75,7 +75,7 @@ def evaluate_predicate_surface_similarity(
     """Evaluate surface similarity between two predicates using LLM."""
     prompt = load_prompt("surface-similarity")
     scores = []
-    
+    model = 'Qwen/Qwen3-0.6B'  # Use Qwen3 for surface similarity
     for _ in range(n_samples):
         response = get_completion(
             prompt=prompt.format(text_a=predicate1, text_b=predicate2),
