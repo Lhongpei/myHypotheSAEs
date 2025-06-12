@@ -65,7 +65,7 @@ def annotate_single_text(
                 prompt=prompt,
                 model=model,
                 temperature=temperature,
-                max_tokens=50,
+                max_tokens=1000,
                 timeout=timeout,
                 system=sys_prompt
             ).strip().lower()
