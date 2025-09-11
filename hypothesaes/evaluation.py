@@ -75,7 +75,6 @@ def evaluate_predicate_surface_similarity(
     """Evaluate surface similarity between two predicates using LLM."""
     prompt = load_prompt("surface-similarity")
     scores = []
-    model = 'Qwen/Qwen3-0.6B'  # Use Qwen3 for surface similarity
     for _ in range(n_samples):
         response = get_completion(
             prompt=prompt.format(text_a=predicate1, text_b=predicate2),
@@ -163,6 +162,10 @@ def compute_ols_metrics(
         metrics.update({
             'auroc': roc_auc_score(y_true, y_pred),
             'auprc': average_precision_score(y_true, y_pred),
+            'acc': sum((y_pred > 0.5) == y_true) / len(y_true),
+            'f1': f1_score(y_true, (y_pred > 0.5).astype(int)),
+            'recall': sum((y_pred > 0.5) & (y_true == 1)) / sum(y_true == 1),
+            'precision': sum((y_pred > 0.5) & (y_true == 1)) / sum(y_pred > 0.5)
         })
         if hasattr(results, 'prsquared'):
             metrics['r2'] = results.prsquared

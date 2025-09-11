@@ -41,7 +41,7 @@ def get_client():
 
 def get_completion(
     prompt: str,
-    model: str = "Qwen3-0.6B",
+    model: str = "Qwen3-8B",
     timeout: float = 15.0,
     max_retries: int = 3,
     backoff_factor: float = 2.0,
@@ -72,13 +72,13 @@ def get_completion(
             if system is not None:
                 # If a system message is provided, use it in the messages list
                 response = client.chat.completions.create(
-                    model=model_id,
+                    model=model,
                     messages=[{"role": "system", "content": system}, {"role": "user", "content": prompt}],
                     timeout=timeout,
                     **kwargs
                 )
             response = client.chat.completions.create(
-                model="Qwen/Qwen3-0.6B",
+                model=model,
                 messages=[{"role": "user", "content": prompt}, ],
                 timeout=timeout,
                 **kwargs

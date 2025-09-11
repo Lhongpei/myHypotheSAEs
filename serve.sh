@@ -1,12 +1,12 @@
 #!/bin/bash
 
-export CUDA_VISIBLE_DEVICES="1"
+export CUDA_VISIBLE_DEVICES="4,5,6,7"
 
-MODEL="Qwen/Qwen3-0.6B"
+MODEL="Qwen/Qwen3-32B"
 HOST="0.0.0.0"
 PORT="1212"
 MAX_MODEL_LEN="" 
-TENSOR_PARALLEL=1
+TENSOR_PARALLEL=4
 
 # 构建基础命令
 CMD="vllm serve ${MODEL} \

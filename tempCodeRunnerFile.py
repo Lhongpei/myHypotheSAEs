@@ -1,0 +1,1 @@
+df['length_of_stay'].dt.days

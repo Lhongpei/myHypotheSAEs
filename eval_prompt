@@ -1,0 +1,33 @@
+H0  +0.67  age ≥ 80 yr  → Deceased/Hospice  
+H1  +0.58  no BP/BMI/ht/wt recorded  → Deceased/Hospice  
+H2  +0.88  physician-referral + LOS long  → Deceased/Hospice  
+H3  +0.66  isolated systolic HTN ≥140  → Deceased/Hospice  
+H4  +1.01  missing vitals + no prior records  → Deceased/Hospice  
+H5  -0.97  first-time encounter  → Deceased/Hospice  
+H6  -2.34  same-day surgery + vitals documented  → Deceased/Hospice  
+H7  -16.7  young adult 18-22  → Deceased/Hospice  
+H8  +2.21  same-day surgery admit  → Home  
+H9  +0.50  elective admit via physician referral  → Home  
+H10 +0.10  Stage 1 HTN  → Home  
+H11 +0.43  obese + hypertensive  → Home  
+H12 +0.66  vitals fully documented  → Home  
+H13 -1.44  same-day surgery + no prior records  → Home  
+H14 -0.57  urgent admit 2-3 d + missing vitals  → Home  
+H15 -0.85  emergency admit 4+ d + missing vitals  → Home  
+H16 -0.92  age ≥81  → Home  
+H17 -1.68  LOS ≥10 d + missing vitals  → Home  
+H18 +1.24  no prior records  → Home_with_Services  
+H19 +0.65  young adult 18-22 + BMI ≥25 + missing BP  → Home_with_Services  
+H20 -0.58  young adult 18-24 + limited records  → Home_with_Services  
+H21 -0.67  vitals documented normal  → Home_with_Services  
+H22 -0.86  missing BP values  → Home_with_Services  
+H23 -0.92  age ≥81  → Home_with_Services  
+H24 -1.68  LOS ≥10 d + missing vitals  → Home_with_Services  
+H25 -22.4  91-92 yr White + ER + emergency  → Home_with_Services  
+H26 +1.46  LOS ≥4 d  → Facility_Based_Care  
+H27 +1.06  age ≥81 + ER admit + no prior records  → Facility_Based_Care  
+H28 +0.61  admitted for observation post-SNF  → Facility_Based_Care  
+H29 +0.66  divorced + prolonged/urgent admit + missing vitals  → Facility_Based_Care  
+H30 -0.81  diastolic optimal + systolic normal  → Facility_Based_Care  
+H31 -0.92  age ≥81  → Facility_Based_Care  
+H32 -1.68  LOS ≥10 d + missing vitals  → Facility_Based_Care  

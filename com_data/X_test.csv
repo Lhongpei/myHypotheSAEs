@@ -1,0 +1,358 @@
+id,gender,race,age,height,weight,bmi,blood_pressure,marital_status,number_of_records,insurance,language,admit_type,admit_time,admit_location,length_of_stay
+10509045,Female,white,80,61.5,162.8,30.3,148/68,married,2,medicare,english,ew emer.,2158-10-24,emergency room,4
+10256269,Female,other,91,unknown,150,unknown,133/69,widowed,0,other,english,ew emer.,2168-07-17,emergency room,39
+10541652,Male,asian - korean,84,66,128,20.7,136/62,married,14,medicaid,?,ew emer.,2168-08-26,emergency room,12
+10450519,Male,white,84,unknown,190,unknown,130/78,married,4,medicare,english,ew emer.,2158-04-25,emergency room,6
+10431794,Female,black/african american,61,62,135,24.7,114/82,widowed,8,medicare,english,ew emer.,2179-07-19,emergency room,3
+10258020,Male,white,78,72,250,37.2,134/70,married,4,other,english,ew emer.,2124-12-17,walk-in/self referral,9
+10393214,Male,other,61,unknown,unknown,unknown,unknown,unknown,0,medicaid,english,urgent,2119-01-20,transfer from hospital,1
+10408344,Male,white,51,74,300.9,38.6,139/73,married,0,other,english,direct emer.,2121-03-06,clinic referral,1
+10208867,Female,unknown,37,65,195,32.4,130/72,married,4,other,english,urgent,2152-01-30,physician referral,2
+10300536,Female,white,72,52,119,30.9,138/78,widowed,1,other,english,ew emer.,2185-12-23,physician referral,4
+10529812,Female,black/african american,27,65,194,32.3,unknown,married,0,other,english,urgent,2121-09-09,physician referral,2
+10082965,Female,white,86,60,120.37,24.3,unknown,widowed,1,medicare,english,observation admit,2168-08-11,transfer from hospital,11
+10425664,Male,white,83,66,160,25.8,unknown,married,0,other,english,ew emer.,2110-06-24,emergency room,2
+10330314,Male,white,46,unknown,unknown,unknown,unknown,single,0,other,english,ew emer.,2157-11-11,emergency room,0
+10398756,Male,hispanic or latino,34,unknown,unknown,unknown,unknown,single,0,medicaid,english,ew emer.,2177-01-08,emergency room,7
+10287696,Female,unable to obtain,23,unknown,unknown,unknown,unknown,unknown,0,other,english,ew emer.,2148-04-05,emergency room,1
+10198943,Female,white,90,64,134.48,23.1,unknown,widowed,6,medicare,english,surgical same day admission,2126-08-02,physician referral,2
+10208740,Female,black/african,34,62.5,229,41.2,141/70,single,0,medicare,english,surgical same day admission,2164-01-03,physician referral,2
+10239650,Male,unknown,91,69,198.00,29.2,unknown,unknown,0,medicare,english,urgent,2156-09-11,transfer from hospital,2
+10041339,Female,white,34,59.5,95,20.1,120/80,married,0,other,english,urgent,2133-10-18,clinic referral,17
+10102610,Female,asian,24,63,134.3,23.8,117/82,single,1,other,english,direct emer.,2173-12-03,physician referral,5
+10152346,Male,white,73,64,162,27.8,240/168,widowed,2,medicare,english,observation admit,2128-08-05,emergency room,6
+10423166,Female,white,71,unknown,unknown,unknown,130/72,married,0,medicare,english,ew emer.,2154-08-31,emergency room,0
+10121482,Female,white,34,unknown,unknown,unknown,unknown,single,0,other,?,urgent,2115-04-23,physician referral,2
+10507361,Male,white,57,98,163.5,12.0,144/94,single,1,other,english,surgical same day admission,2113-08-03,physician referral,4
+10526583,Male,hispanic or latino,37,unknown,unknown,unknown,unknown,divorced,0,medicare,english,ew emer.,2150-01-31,emergency room,1
+10557115,Female,white - eastern european,68,68,180.00,26.6,169/79,single,1,other,english,ew emer.,2175-02-08,transfer from hospital,4
+10261293,Male,other,57,67,168,26.3,unknown,single,1,medicare,english,observation admit,2131-06-05,physician referral,13
+10350119,Female,white,76,unknown,unknown,unknown,unknown,married,1,medicare,english,urgent,2142-10-18,transfer from hospital,3
+10478934,Female,white,45,unknown,unknown,unknown,unknown,divorced,0,other,english,ew emer.,2153-01-24,emergency room,1
+10381911,Male,unable to obtain,70,unknown,unknown,unknown,unknown,married,0,medicare,?,urgent,2154-05-26,transfer from hospital,2
+10278578,Female,white,82,65,131.17,21.8,106/49,widowed,0,medicare,english,urgent,2152-12-19,transfer from hospital,5
+10387410,Male,asian,71,unknown,unknown,unknown,unknown,married,1,medicare,english,ew emer.,2154-12-14,emergency room,1
+10286972,Male,white,45,unknown,unknown,unknown,unknown,single,1,other,?,ew emer.,2163-04-24,emergency room,6
+10219598,Female,white,41,unknown,unknown,unknown,unknown,single,0,other,english,ew emer.,2163-08-04,emergency room,3
+10137119,Male,asian,65,70,174,25.0,unknown,married,0,medicaid,english,ew emer.,2142-12-23,emergency room,10
+10237082,Male,white,80,71,188.50,26.3,153/67,married,0,medicare,english,observation admit,2180-10-16,physician referral,12
+10358580,Female,asian,82,unknown,unknown,unknown,unknown,widowed,2,medicare,?,ew emer.,2158-03-25,emergency room,4
+10508909,Female,white,74,63,170,30.5,100/60,married,5,medicare,english,surgical same day admission,2165-07-03,physician referral,1
+10500002,Male,black/african american,64,72,227.07,30.8,134/81,married,5,other,english,ew emer.,2190-05-16,physician referral,20
+10466692,Female,white,79,unknown,unknown,unknown,unknown,married,0,medicare,english,ew emer.,2168-04-09,emergency room,6
+10051990,Male,white,55,unknown,unknown,unknown,unknown,divorced,0,other,english,observation admit,2188-10-27,emergency room,10
+10062707,Female,other,72,unknown,unknown,unknown,unknown,married,0,medicare,english,ew emer.,2148-06-04,emergency room,1
+10553130,Female,white,26,65,160.2,26.7,114/72,single,0,other,english,direct emer.,2146-08-20,physician referral,3
+10521730,Female,black/african american,28,63.25,134.10,23.6,109/71,single,11,other,english,direct emer.,2131-11-30,physician referral,22
+10298410,Male,white,81,unknown,unknown,unknown,unknown,widowed,0,medicare,english,ew emer.,2122-09-08,emergency room,1
+10252385,Female,black/african american,43,67,212,34.2,110/76,single,8,medicare,english,observation admit,2210-12-24,walk-in/self referral,2
+10381607,Male,white,60,70,175.00,25.1,unknown,single,0,other,english,ew emer.,2150-10-08,emergency room,2
+10149959,Female,white,80,66,315.26,50.9,unknown,married,3,medicare,english,urgent,2151-06-15,transfer from skilled nursing facility,20
+10553843,Male,hispanic or latino,27,63.25,158.1,27.8,120/70,single,0,other,?,ew emer.,2115-04-04,emergency room,8
+10354217,Female,white,75,61,212,40.1,120/78,widowed,13,medicare,english,observation admit,2165-08-28,walk-in/self referral,22
+10424199,Female,white,62,63,98.77,17.5,126/57,single,3,other,english,urgent,2161-05-10,transfer from hospital,10
+10202580,Female,other,80,unknown,143.9,unknown,158/89,unknown,0,medicare,?,urgent,2120-01-09,transfer from hospital,9
+10052938,Female,other,62,61,50.0,9.4,91/62,married,1,medicaid,?,observation admit,2189-05-17,walk-in/self referral,16
+10332111,Female,white,63,65,220.5,36.7,98/53,married,4,other,english,surgical same day admission,2189-06-28,physician referral,1
+10555659,Male,white,81,72,148.4,20.1,142/80,married,0,medicare,english,ew emer.,2187-07-05,emergency room,1
+10444770,Female,white - other european,70,68,277.78,42.2,148/70,widowed,2,other,english,ew emer.,2160-01-24,transfer from skilled nursing facility,18
+10011279,Male,white,40,67,174.21,27.3,unknown,single,0,other,english,direct observation,2179-05-02,transfer from hospital,1
+10195086,Female,unknown,87,60,128,25.0,100/60,married,0,other,english,urgent,2188-09-22,transfer from hospital,8
+10475313,Male,white,67,unknown,unknown,unknown,116/84,married,0,other,english,surgical same day admission,2162-02-12,physician referral,4
+10143711,Male,white,88,67.5,200,29.8,129/79,single,3,medicare,english,observation admit,2161-02-11,emergency room,3
+10113751,Male,black/cape verdean,60,68.5,143,21.4,112/62,single,0,medicaid,?,observation admit,2115-12-24,transfer from hospital,6
+10104335,Female,hispanic/latino - guatemalan,88,60,108,22.3,152/70,single,6,medicare,?,ew emer.,2183-06-26,emergency room,2
+10158684,Male,white,39,unknown,unknown,unknown,unknown,single,0,medicaid,english,ew emer.,2162-06-30,emergency room,2
+10393331,Male,other,48,unknown,unknown,unknown,unknown,married,1,other,english,ew emer.,2114-07-22,emergency room,11
+10195152,Male,asian,27,unknown,unknown,unknown,unknown,single,3,medicaid,english,direct emer.,2123-07-12,physician referral,6
+10329986,Female,black/african american,64,68,200,30.4,146/90,single,7,medicare,english,ew emer.,2202-02-05,physician referral,7
+10302161,Female,black/african american,88,unknown,unknown,unknown,unknown,divorced,2,other,english,ew emer.,2148-07-23,emergency room,4
+10416938,Female,white,34,69,146,26.7,114/68,married,1,other,english,urgent,2198-04-13,physician referral,3
+10457963,Male,white - other european,49,70,212.0,30.4,136/76,married,5,medicare,english,observation admit,2128-02-27,physician referral,3
+10366818,Female,white,47,unknown,279.5,50.3,140/88,single,2,other,english,surgical same day admission,2172-04-20,physician referral,4
+10186442,Female,other,81,1,1,24.2,unknown,married,3,medicare,english,ew emer.,2168-01-27,emergency room,17
+10264949,Female,white,64,60,142.60,27.8,118/51,married,4,other,english,ew emer.,2164-09-12,emergency room,2
+10371557,Female,white,73,64,137.13,23.5,unknown,single,0,other,english,observation admit,2115-09-30,emergency room,7
+10243868,Male,white,80,69,209,31.3,120/70,married,1,medicare,english,ew emer.,2121-04-18,emergency room,1
+10560755,Male,black/african american,57,unknown,unknown,unknown,unknown,single,0,medicaid,english,ew emer.,2126-03-05,emergency room,10
+10329830,Female,white,33,60,98,19.1,unknown,single,0,other,english,surgical same day admission,2174-07-25,physician referral,2
+10261732,Female,unknown,79,unknown,unknown,unknown,unknown,unknown,0,medicare,english,ew emer.,2155-03-05,emergency room,0
+10452075,Male,unknown,63,67,150,22.7,132/78,single,1,other,?,observation admit,2111-04-06,emergency room,7
+10006269,Male,white,51,70,180,25.8,unknown,married,0,other,english,observation admit,2124-06-27,physician referral,8
+10339460,Female,asian - chinese,74,60,106,20.7,143/69,single,6,medicare,?,observation admit,2196-11-25,transfer from hospital,3
+10387381,Female,black/african american,37,62,137.8,25.2,120/79,single,0,other,english,urgent,2134-11-25,physician referral,5
+10266070,Female,white,21,64,162.2,27.8,111/67,single,2,other,english,ew emer.,2168-07-30,emergency room,3
+10071690,Female,black/african american,66,62,173,45.0,124/80,single,2,other,english,observation admit,2196-07-06,physician referral,2
+10373406,Male,white,87,unknown,unknown,unknown,unknown,widowed,3,medicare,english,ew emer.,2121-07-22,emergency room,9
+10458472,Male,white,82,66,181,30.0,150/94,married,2,medicare,?,ew emer.,2207-09-30,walk-in/self referral,2
+10336400,Female,asian,52,62,145,26.5,132/90,married,1,other,english,observation admit,2183-08-18,emergency room,2
+10342727,Female,white,71,66.5,182,28.5,118/62,single,14,medicare,english,observation admit,2165-09-03,clinic referral,17
+10172560,Female,white,85,62.5,115.3,20.8,unknown,widowed,0,medicare,english,observation admit,2151-09-18,physician referral,1
+10087025,Female,unknown,76,unknown,unknown,unknown,unknown,divorced,0,medicare,english,urgent,2164-03-09,transfer from hospital,5
+10297112,Male,white,67,72,186.8,25.3,140/68,married,1,medicare,english,direct emer.,2130-02-25,physician referral,2
+10336082,Female,unknown,83,65,200,33.3,175/74,widowed,5,medicare,?,ew emer.,2128-04-08,emergency room,10
+10379240,Male,white,57,71,216,31.4,124/80,married,5,other,english,observation admit,2141-05-28,transfer from hospital,3
+10127758,Female,white,73,59.5,155,29.8,190/95,widowed,0,other,english,surgical same day admission,2189-11-18,physician referral,1
+10436545,Male,white,84,68,159.6,24.3,unknown,married,0,other,english,observation admit,2162-10-21,transfer from hospital,25
+10081559,Female,white,68,63,160,28.3,115/62,married,0,other,english,ew emer.,2181-06-01,emergency room,2
+10060204,Male,patient declined to answer,44,66.75,212,33.9,110/90,single,0,other,english,ew emer.,2191-05-22,emergency room,1
+10370700,Male,white,86,67,194.89,30.5,113/61,married,3,other,english,direct emer.,2134-03-25,physician referral,3
+10378558,Female,white,87,unknown,162,unknown,160/80,married,0,medicare,?,ew emer.,2151-06-19,emergency room,6
+10206536,Female,white,85,62,162.6,29.7,186/75,widowed,0,other,english,ew emer.,2137-10-02,emergency room,3
+10109639,Male,white,47,68.25,172.2,27.2,124/78,married,3,other,english,surgical same day admission,2182-09-19,physician referral,1
+10045556,Female,white,60,63.75,111,19.4,120/80,married,2,other,english,ew emer.,2142-02-01,emergency room,2
+10106434,Female,white,48,unknown,unknown,unknown,unknown,married,0,other,english,ew emer.,2182-07-07,emergency room,1
+10145222,Female,american indian/alaska native,70,63,163.3,28.9,140/70,single,0,other,english,ew emer.,2151-04-09,emergency room,3
+10245377,Female,white,49,unknown,unknown,unknown,unknown,married,0,other,english,surgical same day admission,2153-09-03,physician referral,1
+10150279,Female,white,56,65,256,42.6,139/67,married,3,medicare,english,surgical same day admission,2145-01-19,physician referral,5
+10136405,Female,white,89,unknown,113,21.7,112/71,single,1,medicare,english,ew emer.,2140-11-02,emergency room,4
+10115708,Female,white,50,68,184,28.0,130/80,married,1,other,english,surgical same day admission,2152-08-03,physician referral,2
+10190445,Male,black/african american,42,72.5,unknown,unknown,134/82,single,0,other,english,ew emer.,2174-08-13,emergency room,3
+10306916,Male,white,45,unknown,unknown,unknown,unknown,divorced,0,other,english,urgent,2123-04-14,transfer from hospital,13
+10227305,Female,hispanic/latino - cuban,32,59,143,58.6,138/75,single,2,medicaid,english,observation admit,2168-01-18,physician referral,8
+10301999,Female,white,88,unknown,unknown,unknown,unknown,widowed,0,medicare,english,ew emer.,2139-04-11,emergency room,2
+10318188,Male,white,86,unknown,unknown,unknown,unknown,married,1,medicare,english,urgent,2138-04-27,physician referral,7
+10049814,Male,white,40,unknown,unknown,unknown,unknown,married,0,other,english,ew emer.,2178-01-19,emergency room,1
+10401193,Female,hispanic/latino - dominican,64,65,239.86,39.9,148/74,divorced,2,medicaid,?,surgical same day admission,2155-10-08,physician referral,8
+10005236,Male,white - other european,79,70,210,30.1,112/58,married,1,other,english,urgent,2180-06-26,transfer from hospital,7
+10361880,Female,white,42,62,210,37.2,128/64,married,1,other,english,urgent,2128-04-02,physician referral,6
+10001919,Male,other,59,68.5,164,24.5,141/84,married,0,other,english,surgical same day admission,2124-04-20,physician referral,1
+10098030,Female,white,79,unknown,139,unknown,129/81,widowed,0,other,english,ew emer.,2170-07-06,emergency room,4
+10186451,Male,unknown,59,67,243.61,38.2,145/89,married,1,other,english,observation admit,2160-04-05,physician referral,4
+10466788,Male,black/african american,81,69.5,177.8,25.9,135/74,single,4,medicare,english,ew emer.,2171-07-03,emergency room,5
+10103031,Male,asian,62,64,135,23.2,122/74,single,2,medicare,english,surgical same day admission,2190-04-13,physician referral,1
+10413427,Female,white,45,61,156,29.5,120/70,married,1,other,english,surgical same day admission,2188-01-14,physician referral,1
+10456637,Female,white,61,62,131,24.0,156/85,widowed,3,other,english,ew emer.,2137-03-13,emergency room,5
+10432024,Female,white,74,65.25,163,25.9,144/77,divorced,0,medicare,english,ew emer.,2174-10-30,pacu,1
+10447777,Female,white,71,unknown,unknown,unknown,unknown,divorced,0,other,english,ew emer.,2135-06-11,emergency room,5
+10459921,Female,white,91,unknown,unknown,unknown,unknown,widowed,0,other,english,ew emer.,2142-04-17,emergency room,6
+10294146,Female,white,91,63,151.23,26.8,unknown,unknown,0,medicare,english,urgent,2117-12-31,transfer from hospital,1
+10498553,Female,asian,29,67,169.75,26.6,108/61,married,0,other,english,urgent,2142-05-30,physician referral,4
+10375037,Female,white,30,58,150,31.3,unknown,married,0,other,english,urgent,2135-05-18,physician referral,3
+10537843,Female,white,74,66,196.1,28.1,148/80,married,2,medicare,english,observation admit,2160-04-18,procedure site,3
+10073247,Female,white,82,62,127.1,23.2,130/62,widowed,1,medicare,english,ew emer.,2193-02-13,physician referral,4
+10060749,Female,white,80,62,141,25.8,unknown,married,0,medicare,english,ew emer.,2118-12-27,walk-in/self referral,4
+10012206,Male,white,45,unknown,unknown,unknown,unknown,married,0,other,english,observation admit,2127-07-04,transfer from hospital,10
+10160899,Male,white,85,68,200.40,30.5,122/53,married,1,medicare,english,observation admit,2195-05-29,emergency room,1
+10401052,Male,white,65,unknown,unknown,unknown,unknown,single,0,other,english,urgent,2170-12-24,transfer from hospital,8
+10279514,Male,white,79,60,96.90,18.9,98/83,single,5,other,english,observation admit,2128-03-30,physician referral,3
+10440937,Female,white,67,64,140,24.0,122/72,divorced,1,medicare,english,observation admit,2122-08-15,physician referral,2
+10181948,Female,white,69,65,126.1,21.0,138/88,married,2,medicare,english,ew emer.,2144-03-13,emergency room,3
+10305617,Female,white - other european,70,61,188,34.4,136/78,widowed,2,other,english,ew emer.,2184-03-08,physician referral,3
+10142339,Male,white,27,70,137,19.7,unknown,single,0,other,english,observation admit,2167-02-13,physician referral,5
+10275864,Female,black/african american,49,66,179,28.9,124/87,married,0,other,english,surgical same day admission,2181-05-13,physician referral,3
+10023948,Female,white,62,60,120,23.4,unknown,single,0,other,english,observation admit,2135-07-12,transfer from hospital,9
+10476771,Male,black/african american,71,66.5,213,32.9,128/82,married,0,other,english,ew emer.,2135-12-19,emergency room,4
+10185295,Female,white,71,62,185,33.8,131/69,married,3,medicare,english,observation admit,2186-04-18,emergency room,4
+10396867,Female,white,65,66.25,131.8,21.1,111/69,married,1,medicare,english,elective,2155-07-26,physician referral,5
+10027407,Male,white,63,68,185.00,28.1,unknown,married,0,other,english,ew emer.,2188-03-24,emergency room,1
+10482515,Male,white,76,unknown,unknown,unknown,unknown,single,0,other,?,ew emer.,2139-02-27,emergency room,2
+10119992,Male,white,78,65,145.9,25.0,128/70,single,11,other,english,ew emer.,2152-03-06,physician referral,15
+10380003,Male,white,66,72,336,45.6,132/92,married,3,other,english,urgent,2132-02-10,transfer from hospital,1
+10095483,Male,white,23,70.8,337.96,47.4,unknown,married,0,other,english,ew emer.,2130-06-04,transfer from hospital,1
+10313404,Female,white,64,unknown,unknown,unknown,unknown,married,0,other,english,ew emer.,2113-05-22,emergency room,5
+10444964,Female,other,45,64.25,113,18.8,110/76,single,1,other,?,ew emer.,2124-07-26,emergency room,4
+10519063,Male,white,33,68,157,23.6,110/75,single,1,other,english,ew emer.,2115-08-02,emergency room,6
+10560224,Male,white,30,unknown,unknown,unknown,unknown,married,0,other,english,ew emer.,2188-03-03,emergency room,4
+10471568,Male,black/african american,21,67,144.4,22.6,unknown,single,0,other,english,observation admit,2130-10-27,transfer from hospital,7
+10272418,Female,white,52,unknown,unknown,unknown,unknown,married,0,other,english,surgical same day admission,2125-08-27,physician referral,6
+10289900,Male,black/african american,91,unknown,141,unknown,110/60,married,0,medicaid,english,ew emer.,2137-10-29,emergency room,3
+10075933,Male,black/african american,62,68,131.8,20.0,124/68,single,1,other,english,ew emer.,2153-06-02,emergency room,4
+10250152,Female,white,61,61.2,118.2,22.3,135/56,married,2,other,english,ew emer.,2130-12-03,pacu,1
+10419066,Female,white,45,62,152,27.8,122/78,married,1,other,english,observation admit,2151-12-31,walk-in/self referral,2
+10453779,Male,white,54,67,197,30.9,unknown,single,10,medicare,english,urgent,2176-06-06,internal transfer to or from psych,35
+10017437,Female,other,80,unknown,unknown,unknown,141/75,single,0,other,english,surgical same day admission,2118-04-17,physician referral,8
+10292353,Male,white,78,71.75,340,46.4,146/82,married,4,other,english,ew emer.,2165-04-11,transfer from hospital,2
+10514034,Male,unknown,34,63,245.90,43.6,unknown,single,1,other,?,urgent,2182-08-07,physician referral,2
+10187053,Male,white,76,68,140.00,21.3,106/69,married,0,other,english,observation admit,2142-07-27,walk-in/self referral,15
+10143435,Male,white,78,unknown,unknown,unknown,unknown,married,0,other,english,ew emer.,2186-10-05,emergency room,3
+10160268,Female,white,23,65,215.00,35.8,unknown,single,0,other,english,urgent,2136-08-09,transfer from hospital,2
+10438730,Male,asian,29,unknown,unknown,unknown,unknown,single,0,other,english,ew emer.,2154-09-28,emergency room,4
+10174787,Male,white,77,67,194,29.5,112/64,single,2,medicare,?,ew emer.,2154-05-11,emergency room,16
+10398564,Female,white,91,unknown,unknown,unknown,unknown,widowed,0,medicare,english,ew emer.,2153-11-08,emergency room,10
+10069692,Female,asian - chinese,91,55.9,70,15.7,unknown,widowed,1,other,?,observation admit,2148-06-15,transfer from skilled nursing facility,6
+10010374,Female,black/african american,29,unknown,167,unknown,100/40,single,2,other,english,urgent,2136-09-03,physician referral,6
+10197263,Male,white - other european,71,70.5,235.1,33.3,133/79,married,1,medicare,english,ew emer.,2180-02-18,walk-in/self referral,2
+10374990,Female,white,58,61.5,150.8,28.0,127/76,married,9,other,english,observation admit,2188-06-06,emergency room,13
+10025412,Male,white,53,66,182,29.4,120/82,single,0,other,english,ew emer.,2154-08-09,emergency room,3
+10336621,Male,white,65,70,234,33.6,132/88,married,2,other,english,surgical same day admission,2196-11-10,physician referral,3
+10455067,Male,white,51,71,198,27.6,124/76,married,1,other,english,observation admit,2126-09-30,physician referral,10
+10326429,Female,white,48,unknown,unknown,unknown,unknown,single,1,other,english,urgent,2159-07-20,transfer from hospital,4
+10212492,Female,white,60,unknown,unknown,unknown,unknown,single,0,other,english,ew emer.,2125-02-09,emergency room,2
+10024171,Female,other,30,61.75,155.00,28.6,unknown,single,0,other,english,surgical same day admission,2154-09-07,physician referral,1
+10524651,Male,white,26,unknown,164,unknown,132/82,single,0,medicaid,english,urgent,2170-11-20,transfer from hospital,3
+10412446,Male,white,62,68,165,25.1,unknown,divorced,1,medicare,english,urgent,2116-09-28,transfer from hospital,8
+10359006,Female,white,84,unknown,unknown,unknown,unknown,widowed,0,medicare,?,ew emer.,2130-10-28,emergency room,6
+10232463,Female,asian,62,61,107,20.2,142/66,married,0,medicaid,?,surgical same day admission,2137-03-19,physician referral,2
+10549521,Female,white,39,61.25,118,22.3,110/60,married,1,other,english,surgical same day admission,2141-05-03,physician referral,2
+10105605,Male,white,36,unknown,181,unknown,138/82,married,0,other,english,ew emer.,2136-02-23,emergency room,12
+10040721,Female,unknown,28,unknown,unknown,unknown,unknown,single,0,other,english,ew emer.,2176-04-10,emergency room,3
+10357307,Male,hispanic or latino,47,unknown,unknown,unknown,unknown,single,0,medicaid,english,ew emer.,2140-10-23,emergency room,4
+10250736,Female,unknown,79,unknown,unknown,unknown,unknown,unknown,1,other,english,urgent,2128-06-27,transfer from hospital,5
+10417271,Male,white,80,66,150.4,24.3,126/56,married,1,medicare,english,urgent,2177-12-20,transfer from hospital,6
+10249424,Female,white,69,65,216,37.1,132/70,single,5,medicare,english,urgent,2140-01-21,transfer from hospital,4
+10219301,Male,white,71,66,175,28.2,131/72,married,0,medicare,english,elective,2139-08-30,physician referral,5
+10169796,Male,white,30,unknown,unknown,unknown,unknown,single,4,other,english,ew emer.,2151-06-04,emergency room,9
+10261814,Male,american indian/alaska native,30,unknown,unknown,unknown,unknown,married,0,other,english,ew emer.,2137-06-28,procedure site,0
+10559787,Female,white,27,67,207,28.2,114/72,single,4,medicare,english,surgical same day admission,2177-05-25,physician referral,1
+10200129,Female,white,53,67,236,37.0,124/84,divorced,3,other,english,observation admit,2181-02-25,physician referral,12
+10555832,Female,black/african american,68,59.75,204.3,39.9,134/77,single,0,medicare,english,surgical same day admission,2193-12-07,physician referral,3
+10030753,Female,white,58,62,181,32.7,116/58,divorced,38,medicare,english,ew emer.,2201-04-28,transfer from hospital,35
+10114834,Male,white,31,68,187.39,28.5,unknown,single,0,other,english,ew emer.,2177-02-01,emergency room,4
+10019350,Female,white,86,63,140,25.0,140/60,married,1,medicare,english,ew emer.,2171-12-21,emergency room,1
+10377545,Male,white,77,70,174.82,25.1,106/60,divorced,0,medicare,english,observation admit,2127-11-08,transfer from hospital,6
+10407324,Female,white,47,63,181,31.6,102/62,married,2,other,english,observation admit,2182-02-10,walk-in/self referral,3
+10125252,Female,black/african american,51,unknown,160,29.3,111/70,married,0,other,english,ew emer.,2115-08-30,emergency room,1
+10196878,Female,white,87,65,166.9,27.5,150/72,married,3,medicare,english,observation admit,2156-09-25,physician referral,8
+10323608,Female,white,38,65,158,27.1,102/60,married,2,other,english,observation admit,2151-05-24,walk-in/self referral,5
+10198600,Female,white,80,68,110.5,18.2,140/60,married,7,medicare,english,surgical same day admission,2127-03-11,physician referral,3
+10156299,Female,hispanic/latino - dominican,26,unknown,unknown,unknown,unknown,single,1,other,?,ew emer.,2120-09-24,pacu,2
+10172118,Male,unknown,79,unknown,187,unknown,122/76,single,0,medicare,english,urgent,2124-04-17,transfer from hospital,7
+10384305,Female,white,35,unknown,unknown,unknown,116/70,married,0,other,english,urgent,2149-07-12,physician referral,3
+10425096,Male,white,63,unknown,unknown,unknown,unknown,divorced,0,other,english,ew emer.,2165-08-06,emergency room,2
+10155603,Female,black/african american,65,62,213.49,39.0,unknown,married,0,other,english,ew emer.,2131-11-21,physician referral,3
+10446182,Female,black/african american,62,unknown,127,unknown,145/80,single,6,medicare,english,ew emer.,2155-01-25,emergency room,20
+10200926,Male,white,59,69,213,31.5,109/76,married,7,other,english,ew emer.,2185-01-11,emergency room,5
+10242206,Female,white,27,65,223.00,37.1,unknown,single,0,medicaid,english,ew emer.,2158-08-08,transfer from hospital,2
+10196456,Female,hispanic or latino,30,unknown,unknown,unknown,unknown,single,0,other,english,ew emer.,2171-07-30,emergency room,3
+10484926,Male,unknown,58,unknown,unknown,unknown,unknown,unknown,0,medicaid,english,ew emer.,2185-04-23,emergency room,6
+10267709,Male,white,72,64,188,33.3,120/68,married,15,medicare,english,ew emer.,2185-10-01,emergency room,7
+10130585,Male,asian - chinese,58,66.25,148,25.8,140/77,single,1,other,english,ew emer.,2151-01-24,emergency room,1
+10287049,Male,white,76,72,186,25.2,unknown,married,0,medicare,english,ew emer.,2163-10-06,walk-in/self referral,1
+10344189,Male,white,79,71,163,22.7,124/52,married,2,medicare,english,direct emer.,2166-01-18,physician referral,11
+10115182,Male,white,69,66,132.5,21.0,116/70,married,8,medicare,english,observation admit,2190-07-03,clinic referral,6
+10529395,Male,white,60,unknown,unknown,unknown,unknown,single,0,other,english,ew emer.,2111-06-25,procedure site,7
+10422486,Female,white,67,unknown,unknown,unknown,unknown,married,0,medicare,english,ew emer.,2146-02-28,emergency room,1
+10546460,Male,white,56,71,251.76,35.1,105/70,single,0,medicaid,english,observation admit,2187-07-09,transfer from hospital,2
+10017851,Male,white,75,unknown,unknown,unknown,unknown,widowed,1,medicare,english,ew emer.,2115-11-21,emergency room,2
+10278350,Female,white,31,64,150,25.7,116/76,single,0,other,english,urgent,2154-12-19,physician referral,5
+10098074,Female,white,91,unknown,131.5,unknown,unknown,widowed,1,medicare,english,ew emer.,2164-10-05,emergency room,2
+10473036,Female,other,25,unknown,unknown,unknown,unknown,single,1,other,english,urgent,2128-11-01,internal transfer to or from psych,8
+10098875,Female,other,67,65,145,24.1,129/98,divorced,2,other,english,ew emer.,2113-12-13,physician referral,10
+10274714,Male,black/caribbean island,32,68.25,241,36.4,124/79,married,0,other,english,ew emer.,2155-05-23,emergency room,2
+10284038,Male,white,39,73,247.00,32.6,unknown,single,12,other,english,observation admit,2180-11-29,walk-in/self referral,1
+10550317,Male,white,60,69,250,36.9,135/69,divorced,1,other,english,observation admit,2171-10-25,emergency room,5
+10402762,Male,white,86,61.5,127,23.6,110/68,married,2,medicare,english,observation admit,2137-08-14,emergency room,2
+10177152,Male,white,74,unknown,unknown,unknown,unknown,married,0,other,english,urgent,2138-08-13,transfer from hospital,2
+10283425,Female,white,31,67,108.2,17.5,120/80,single,1,medicaid,english,urgent,2142-06-22,physician referral,2
+10433390,Female,black/african american,54,64,202,34.7,123/80,married,0,other,english,surgical same day admission,2181-05-07,physician referral,1
+10339091,Male,white,49,unknown,176,25.3,112/80,married,0,other,english,ew emer.,2142-08-28,emergency room,3
+10095570,Male,asian - chinese,63,unknown,182,unknown,136/56,married,0,other,?,ew emer.,2148-09-26,emergency room,3
+10369934,Female,black/african american,85,70,225,32.3,unknown,married,0,other,english,urgent,2121-10-27,transfer from hospital,3
+10008245,Male,white,47,64,120,20.6,unknown,single,0,medicare,english,observation admit,2174-04-12,transfer from hospital,9
+10102600,Female,black/african american,27,unknown,unknown,unknown,unknown,married,0,other,english,urgent,2117-02-05,physician referral,5
+10189736,Male,white - brazilian,71,65,180.8,30.1,122/70,married,1,medicaid,?,eu observation,2183-11-07,emergency room,4
+10439475,Male,unknown,24,66,136,21.9,unknown,unknown,1,other,english,urgent,2135-03-21,internal transfer to or from psych,9
+10473373,Male,white,33,74,369,46.1,134/74,single,0,other,english,surgical same day admission,2131-10-14,physician referral,3
+10034031,Male,white - other european,75,69,182.32,26.9,102/56,married,0,other,?,observation admit,2146-12-02,physician referral,11
+10309494,Male,asian - chinese,83,67,181,28.8,134/70,widowed,2,medicaid,?,direct emer.,2136-05-16,clinic referral,10
+10420013,Male,white,56,unknown,unknown,unknown,unknown,married,0,medicare,english,observation admit,2165-02-01,emergency room,4
+10261326,Female,unknown,82,unknown,144,unknown,127/63,unknown,0,other,english,observation admit,2131-08-29,emergency room,9
+10424041,Female,white,78,unknown,unknown,unknown,unknown,unknown,0,other,english,ew emer.,2129-11-11,emergency room,14
+10035301,Female,white,73,64,112.00,19.2,unknown,divorced,0,medicare,english,observation admit,2145-06-07,emergency room,4
+10558339,Male,white,46,unknown,unknown,unknown,unknown,single,3,medicare,english,ew emer.,2188-01-25,emergency room,2
+10508020,Male,white,29,72,2.2,33.2,unknown,married,1,other,english,ew emer.,2152-10-26,physician referral,8
+10055344,Male,black/cape verdean,87,64.5,179,29.3,170/86,married,5,other,?,ew emer.,2171-10-31,emergency room,2
+10146184,Female,white,45,unknown,unknown,unknown,90/60,married,0,other,english,ew emer.,2131-06-16,emergency room,1
+10009203,Male,white,57,66,173,27.1,120/70,married,0,other,english,ew emer.,2201-08-12,emergency room,2
+10201778,Male,hispanic or latino,37,unknown,unknown,unknown,unknown,married,0,other,english,ew emer.,2149-09-16,emergency room,2
+10525349,Male,white,53,unknown,unknown,unknown,unknown,single,1,other,english,ew emer.,2127-04-16,physician referral,9
+10395376,Male,white,54,67,139,20.5,110/74,single,1,medicare,english,elective,2171-12-20,physician referral,3
+10123231,Male,white - other european,65,unknown,unknown,unknown,150/87,single,0,medicare,english,urgent,2111-06-01,transfer from hospital,4
+10109063,Male,white,59,unknown,unknown,unknown,unknown,married,0,other,english,ew emer.,2159-10-08,emergency room,2
+10257390,Male,white,49,unknown,unknown,unknown,unknown,married,0,other,english,ew emer.,2185-09-23,emergency room,8
+10010399,Female,white,56,65,168,28.0,106/64,single,1,medicaid,english,ew emer.,2137-03-02,emergency room,3
+10019777,Male,white,51,unknown,unknown,unknown,unknown,divorced,0,other,english,ew emer.,2187-02-10,emergency room,17
+10236957,Male,hispanic or latino,54,60,123,25.8,120/70,married,1,other,?,ew emer.,2155-07-17,emergency room,1
+10461689,Male,white,66,unknown,unknown,unknown,unknown,single,0,other,english,ew emer.,2168-02-12,emergency room,3
+10499056,Female,white,60,64,134,23.0,122/64,married,1,other,english,direct emer.,2180-08-16,clinic referral,7
+10082662,Female,white - eastern european,72,61.5,137.5,25.6,167/61,divorced,4,medicare,english,observation admit,2148-07-29,physician referral,5
+10526739,Male,white,74,71,256.6,35.8,126/49,married,3,other,english,ew emer.,2130-11-02,emergency room,3
+10396422,Female,other,33,62,139,24.4,106/65,married,1,other,english,urgent,2179-03-18,physician referral,2
+10059217,Male,white,57,unknown,unknown,unknown,unknown,married,1,other,english,ew emer.,2189-04-23,emergency room,15
+10362201,Female,black/african american,81,unknown,unknown,unknown,unknown,widowed,0,medicare,english,ew emer.,2151-07-29,emergency room,1
+10033312,Female,white,57,unknown,unknown,unknown,unknown,married,7,other,english,surgical same day admission,2156-01-25,physician referral,2
+10275551,Male,white,67,unknown,unknown,unknown,unknown,single,2,other,english,urgent,2148-03-25,transfer from hospital,13
+10121836,Female,white,77,62.5,163.6,26.5,146/76,widowed,2,medicare,english,surgical same day admission,2187-07-11,physician referral,2
+10475216,Female,other,71,64,155,26.6,unknown,married,0,other,english,urgent,2151-05-14,transfer from hospital,3
+10482402,Female,white,58,unknown,unknown,unknown,unknown,single,0,medicare,english,ew emer.,2160-03-18,emergency room,6
+10107775,Male,black/african american,35,unknown,unknown,unknown,unknown,single,0,other,english,ew emer.,2170-10-26,emergency room,1
+10174466,Male,white,60,71,190,26.5,124/80,married,0,other,english,ew emer.,2161-11-30,emergency room,3
+10240091,Male,white,46,unknown,unknown,unknown,unknown,single,0,other,english,surgical same day admission,2154-08-07,physician referral,7
+10286603,Female,black/african american,59,62,227.07,41.5,unknown,single,0,medicare,english,ew emer.,2164-10-07,emergency room,3
+10413095,Male,white,41,unknown,unknown,unknown,unknown,unknown,0,other,english,ew emer.,2162-10-27,emergency room,1
+10283719,Male,white,32,70.5,174.2,24.6,117/73,single,0,other,english,ew emer.,2115-09-26,emergency room,9
+10173815,Female,asian - chinese,53,61,96,18.1,110/66,widowed,1,medicare,?,surgical same day admission,2138-11-04,physician referral,2
+10244524,Female,white,48,67,184.08,27.1,119/69,single,1,medicare,english,ew emer.,2172-08-24,emergency room,2
+10249476,Female,black/african american,41,65,128,21.3,110/72,married,0,other,english,urgent,2150-06-20,physician referral,4
+10352278,Male,white,70,72,176.81,24.0,unknown,divorced,1,other,english,ew emer.,2184-10-21,emergency room,4
+10128988,Female,other,71,64,167.00,28.7,139/87,married,1,medicaid,?,direct emer.,2186-01-02,physician referral,5
+10497346,Female,unknown,72,unknown,unknown,unknown,unknown,married,0,medicare,english,observation admit,2125-11-27,emergency room,5
+10329919,Male,unknown,91,unknown,unknown,unknown,unknown,unknown,0,medicare,english,ew emer.,2169-06-30,transfer from hospital,6
+10299229,Male,unable to obtain,73,unknown,unknown,unknown,unknown,married,1,medicare,english,surgical same day admission,2162-04-27,physician referral,3
+10061208,Male,white,35,unknown,202,unknown,137/81,married,0,other,english,surgical same day admission,2136-06-19,physician referral,0
+10150284,Male,white,64,69,173.1,24.8,137/67,single,1,other,english,ew emer.,2134-04-24,internal transfer to or from psych,6
+10316648,Female,white,75,66,174.16,28.1,139/54,widowed,2,medicare,english,ew emer.,2137-09-11,emergency room,5
+10525106,Female,white,62,60,80,16.8,124/80,married,0,other,english,ew emer.,2150-12-12,emergency room,3
+10495823,Female,black/african,73,34,203.7,123.9,unknown,single,0,medicare,english,urgent,2130-10-05,transfer from skilled nursing facility,35
+10372755,Female,white,41,62,139,28.9,100/60,married,1,other,english,urgent,2193-03-06,physician referral,2
+10180095,Female,white,74,63,158,27.9,145/64,divorced,0,medicare,english,elective,2159-01-18,physician referral,6
+10260703,Female,black/african american,61,55,209.44,48.7,unknown,married,0,other,english,ew emer.,2155-06-11,emergency room,3
+10125966,Male,white,90,66,162.4,26.2,127/59,married,4,medicare,english,surgical same day admission,2194-09-17,physician referral,4
+10263994,Male,portuguese,58,unknown,194.3,unknown,112/80,married,0,medicaid,english,ew emer.,2138-06-09,emergency room,4
+10380647,Male,white,68,68,213.9,32.5,137/99,divorced,1,medicare,english,ew emer.,2169-05-17,physician referral,3
+10404210,Female,hispanic/latino - dominican,46,unknown,unknown,unknown,110/70,married,0,other,english,observation admit,2161-03-03,emergency room,2
+10363568,Female,black/caribbean island,91,59.5,95.4,18.9,220/118,married,0,medicaid,?,ew emer.,2188-11-10,emergency room,1
+10532392,Female,white,91,unknown,unknown,unknown,unknown,widowed,0,medicare,english,urgent,2189-05-16,transfer from hospital,2
+10317043,Male,unknown,91,70,124.01,17.8,unknown,unknown,0,medicare,english,ew emer.,2179-08-26,emergency room,14
+10058940,Male,asian,47,61,135,25.5,138/95,married,1,other,?,urgent,2180-01-17,internal transfer to or from psych,20
+10281759,Female,white,70,62,172,31.5,144/89,married,0,other,english,urgent,2178-04-08,transfer from hospital,5
+10248543,Female,black/african american,26,63,125,22.1,118/62,single,0,medicare,english,urgent,2132-04-19,physician referral,3
+10501511,Female,white,28,unknown,unknown,unknown,unknown,single,0,other,english,ew emer.,2154-09-26,emergency room,3
+10516481,Female,black/african american,27,68.5,196,29.4,110/72,single,4,other,english,ew emer.,2189-08-28,emergency room,6
+10252041,Male,white,50,70.13,319,45.6,146/86,single,0,other,english,ew emer.,2167-01-03,emergency room,6
+10490539,Female,white,63,unknown,unknown,unknown,unknown,married,0,medicare,english,ew emer.,2145-11-03,emergency room,4
+10422006,Female,white,77,65.5,250,41.0,144/80,single,2,other,english,urgent,2152-05-02,transfer from hospital,2
+10540275,Female,white,29,62,138,32.9,128/77,single,2,other,english,ew emer.,2151-11-09,emergency room,2
+10159442,Female,white,48,unknown,unknown,unknown,unknown,married,1,other,english,ew emer.,2119-04-19,emergency room,7
+10289911,Male,other,50,67,183,30.5,160/108,married,6,other,english,ew emer.,2184-05-12,clinic referral,5
+10232238,Female,hispanic/latino - puerto rican,28,66.25,261,42.1,138/70,single,1,other,english,surgical same day admission,2114-05-26,physician referral,2
+10019957,Male,white,72,unknown,unknown,unknown,unknown,married,1,medicare,english,surgical same day admission,2135-11-11,physician referral,4
+10412264,Male,white,75,unknown,unknown,unknown,unknown,widowed,0,medicare,english,ew emer.,2186-09-03,emergency room,4
+10152026,Female,white,50,64,unknown,unknown,132/76,single,1,medicaid,english,ew emer.,2149-07-18,emergency room,5
+10414650,Female,white,38,unknown,169,30.9,unknown,married,0,other,english,urgent,2121-04-16,physician referral,7
+10272100,Female,white - other european,85,unknown,unknown,unknown,131/69,widowed,0,medicare,english,urgent,2182-07-18,physician referral,7
+10435225,Female,white,45,unknown,unknown,unknown,unknown,married,0,other,english,ew emer.,2186-08-26,emergency room,2
+10411800,Female,white,91,unknown,unknown,unknown,unknown,widowed,0,medicare,english,urgent,2182-04-04,transfer from hospital,1
+10499472,Male,asian,64,65,152,25.3,122/80,married,2,other,english,ew emer.,2181-07-26,emergency room,2
+10408325,Male,other,86,70,251.32,36.1,unknown,married,1,medicare,english,observation admit,2185-08-01,transfer from hospital,1
+10062617,Male,white,98,72,164.02,22.2,unknown,married,7,other,english,observation admit,2124-03-11,emergency room,3
+10081636,Female,white,50,65,281,46.8,120/86,married,1,medicare,english,surgical same day admission,2173-09-20,physician referral,1
+10188106,Male,white,43,69,155.80,23.0,unknown,single,4,other,english,urgent,2155-05-28,internal transfer to or from psych,13
+10370642,Male,unknown,26,unknown,unknown,unknown,unknown,unknown,0,medicaid,?,observation admit,2128-12-18,emergency room,23
+10116905,Female,white,60,unknown,237,unknown,119/68,married,2,medicare,english,ew emer.,2119-05-10,emergency room,2
+10023486,Male,white,64,73,270,35.6,110/56,married,1,other,english,observation admit,2151-07-09,walk-in/self referral,3
+10309093,Male,white,83,unknown,203.6,29.0,151/70,married,0,medicare,english,observation admit,2142-09-30,transfer from hospital,2
+10301609,Male,black/african american,24,66,229.7,37.1,137/76,single,7,other,english,ew emer.,2126-09-20,emergency room,20
+10150912,Female,white,72,unknown,unknown,unknown,unknown,married,2,medicare,english,ew emer.,2154-12-19,emergency room,4
+10495191,Female,white,53,62,158,28.9,130/80,widowed,0,other,english,direct observation,2170-10-30,physician referral,8
+10038933,Male,white,34,unknown,unknown,unknown,unknown,single,0,other,english,ew emer.,2148-09-10,emergency room,13
+10308187,Female,black/african american,69,63,254.6,45.1,150/72,single,2,medicare,english,elective,2137-06-06,physician referral,21
+10155098,Male,white,62,69,149.6,22.1,106/80,single,1,medicare,english,ew emer.,2142-03-24,emergency room,3
+10077499,Male,white,77,71,260.6,36.3,138/64,married,1,medicare,english,surgical same day admission,2120-08-28,physician referral,6
+10052912,Male,white,63,unknown,unknown,unknown,141/62,single,1,medicare,english,surgical same day admission,2114-01-04,physician referral,4
+10550778,Female,black/african american,71,59,167,31.3,130/80,single,0,medicare,english,ew emer.,2147-07-30,emergency room,2
+10256906,Male,white,55,unknown,unknown,unknown,unknown,single,0,other,english,ew emer.,2122-03-27,emergency room,25
+10386167,Male,other,78,69,225,33.2,unknown,single,0,other,english,elective,2126-04-11,physician referral,1
+10477496,Male,white,56,74,235,30.2,153/98,divorced,4,other,english,surgical same day admission,2180-01-05,physician referral,12
+10078309,Male,black/african american,48,65.5,155,25.8,124/70,married,2,other,english,surgical same day admission,2177-11-18,physician referral,1
+10362223,Male,unknown,67,70,249.6,35.8,138/86,married,0,other,english,surgical same day admission,2136-10-23,physician referral,2
+10386878,Female,white,76,62,235,43.0,142/82,widowed,3,medicare,english,ew emer.,2142-07-05,emergency room,14
+10263098,Male,white,71,75.5,227.9,28.6,170/67,married,11,medicare,english,observation admit,2154-12-04,emergency room,7
+10338643,Male,white,55,83,209,20.5,unknown,married,1,other,english,urgent,2194-11-13,transfer from hospital,2
+10496867,Male,white,63,68,245,37.2,120/80,divorced,0,other,english,ew emer.,2136-03-18,emergency room,11
+10404852,Female,white,79,61,115,21.7,188/89,married,4,medicare,?,observation admit,2186-04-24,emergency room,6
+10332328,Male,black/african american,76,60,208,40.6,132/80,widowed,10,medicare,?,direct emer.,2195-10-14,physician referral,3
+10513508,Female,white,70,unknown,129,unknown,102/70,single,0,other,english,ew emer.,2132-08-20,emergency room,16
+10442559,Female,white,76,65,110.00,18.3,unknown,married,0,other,english,observation admit,2119-04-08,transfer from hospital,1
+10374773,Male,white,22,unknown,unknown,unknown,unknown,single,0,other,english,ew emer.,2146-06-27,emergency room,1

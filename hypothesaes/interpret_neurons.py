@@ -183,7 +183,6 @@ class NeuronInterpreter:
         n_workers_annotation: int = 30,
         cache_name: Optional[str] = None,
     ):
-        interpreter_model, annotator_model = 'Qwen/Qwen3-0.6B', 'Qwen/Qwen3-0.6B' 
         """Initialize a NeuronInterpreter."""
         self.interpreter_model = interpreter_model
         self.annotator_model = annotator_model
@@ -205,7 +204,8 @@ class NeuronInterpreter:
             )
         except KeyError as e:
             raise KeyError(f"Missing required key {e} in the interpretation prompt template. Please ensure all required keys are provided in formatted_examples.")
-        
+        if 'Qwen' in self.interpreter_model:
+            prompt += ' /no_think'  # Qwen models require this to avoid reasoning
         if self.interpreter_model.startswith('o'):
             response = get_completion(
                 prompt=prompt,

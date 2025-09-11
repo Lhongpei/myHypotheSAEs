@@ -70,17 +70,23 @@ def select_neurons_lasso(
             alpha = np.sqrt(alpha_low * alpha_high)
             
             if classification:
+                solver = 'liblinear' if max(target) <= 1 else 'saga'
                 model = LogisticRegression(
                     penalty='l1',
-                    solver='liblinear',
+                    solver=solver,
                     C=1/alpha,
-                    max_iter=max_iter
+                    max_iter=10*max_iter,
                 )
             else:
                 model = Lasso(alpha=alpha, max_iter=max_iter)
             
             model.fit(X_scaled, target)
-            coef = model.coef_.flatten()
+            if classification and model.coef_.ndim == 2:
+                # 多分类，多组系数（n_classes, n_neurons）
+                # 聚合成一个重要性向量（例如用L1范数）
+                coef = np.sum(np.abs(model.coef_), axis=0)
+            else:
+                coef = model.coef_.flatten()
             n_nonzero = np.sum(coef != 0)
             iter_time = time.time() - iter_start_time
             
@@ -237,8 +243,8 @@ def select_neurons(
         Indices of selected neurons and corresponding scores
     """
     # Check if target is multi-class categorical. If so, throw an error.
-    if classification and len(np.unique(target)) > 2:
-        raise ValueError("classification=True, but the target variable has more than 2 classes. We currently do not support multi-class classification, but you can convert to a one-vs-rest binary classification.")
+    # if classification and len(np.unique(target)) > 2:
+    #     raise ValueError("classification=True, but the target variable has more than 2 classes. We currently do not support multi-class classification, but you can convert to a one-vs-rest binary classification.")
 
     if method == "lasso":
         return select_neurons_lasso(

@@ -48,22 +48,19 @@ def df_to_prompts(
     elif isinstance(target_rows, pd.Series):
         target_rows = [target_rows]
 
-    # 🔧 Few-shot example block
-    few_shot_lines = []
-    for i in range(min(few_shot_examples, len(few_shot_row))):
-        row = few_shot_row[i]
-        label = few_shot_label[i]
-        parts = []
-        for field, template in field_descriptions.items():
-            if field in row and not pd.isna(row[field]) and str(row[field]).lower() != "unknown":
-                parts.append(template.format(row[field]))
-        few_shot_lines.append(f"Input: {', '.join(parts)}\nOutput: {label}")
+    # # 🔧 Few-shot example block
+    # few_shot_lines = []
+    # for i in range(min(few_shot_examples, len(few_shot_row))):
+    #     row = few_shot_row[i]
+    #     label = few_shot_label[i]
+    #     parts = []
+    #     for field, template in field_descriptions.items():
+    #         if field in row and not pd.isna(row[field]) and str(row[field]).lower() != "unknown":
+    #             parts.append(template.format(row[field]))
+    #     few_shot_lines.append(f"Input: {', '.join(parts)}\nOutput: {label}")
 
-    prompt_header = (
-        "You are a medical assistant. Based on the patient's personal and medical admission information, "
-        "predict the discharge location.\n\nHere are some examples:\n\n"
-    )
-    few_shot_block = prompt_header + "\n\n".join(few_shot_lines)
+    
+    few_shot_block = ''# + "\n\n".join(few_shot_lines)
 
     # 🔧 For each target row, build prompt
     prompts = []
@@ -72,7 +69,7 @@ def df_to_prompts(
         for field, template in field_descriptions.items():
             if field in row and not pd.isna(row[field]) and str(row[field]).lower() != "unknown":
                 parts.append(template.format(row[field]))
-        prompt = few_shot_block + f"\n\nNow, given a new patient:\nInput: {', '.join(parts)}\nOutput:"
+        prompt = few_shot_block + f"Given the information of a patient: {', '.join(parts)}"
         prompts.append(prompt)
 
         # Optional output file

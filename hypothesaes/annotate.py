@@ -49,7 +49,6 @@ def annotate_single_text(
     Annotate a single text with given concept using LLM.
     Returns (annotation, api_time) where annotation is 1 (present), 0 (absent), or None (failed).
     """
-    model = 'Qwen/Qwen3-0.6B' 
     if max_words_per_example:
         text = truncate_text(text, max_words_per_example)
         
