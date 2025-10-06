@@ -3,13 +3,13 @@ import csv
 import json
 import concurrent.futures
 import random # Import the random module
-from dotenv import load_dotenv
-from openai import OpenAI
+
 from tqdm import tqdm
 
 # --- Configuration ---
 MAX_WORKERS = 32
-
+from dotenv import load_dotenv
+from openai import OpenAI
 # --- OpenAI Client Initialization (Unchanged) ---
 load_dotenv()
 API_KEY = os.getenv('OPENAI_API_KEY')

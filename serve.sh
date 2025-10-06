@@ -1,5 +1,6 @@
 #!/bin/bash
-
+export NCCL_NVLS_ENABLE=0  
+export CUDA_MODULE_LOADING=EAGER
 export CUDA_VISIBLE_DEVICES="4,5,6,7"
 
 MODEL="Qwen/Qwen3-32B"
